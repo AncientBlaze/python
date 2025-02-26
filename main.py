@@ -12,7 +12,7 @@ class PongPaddle(Widget):
         if self.collide_widget(ball) :
             ball.velocity_x *= -1.2
 
-
+# hi
 class PongBall(Widget):
     velocity_x = NumericProperty(0)
     velocity_y = NumericProperty(0)
